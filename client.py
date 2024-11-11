@@ -12,5 +12,5 @@ while(True):
     print(my_socket.recv(int(lengh)).decode())
 
     data = my_socket.recv(1024).decode()
-    print("The server sent " + data)
+    print("The server sents " + data)
 my_socket.close()
